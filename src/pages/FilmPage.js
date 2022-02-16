@@ -10,7 +10,7 @@ export default class FilmPage extends Component {
     };
   }
   componentDidMount() {
-    let film = films[this.props.match.params.id - 1]; //     // films
+    let film = films[this.props.match.params.id - 1]; 
     this.setState({ film });
     // ici, clé porte le même nom que la valeur
   }
